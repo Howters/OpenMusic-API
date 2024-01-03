@@ -6,7 +6,6 @@ const AlbumsService = require('./services/postgres/AlbumsService');
 const SongsService = require('./services/postgres/SongsService');
 const AlbumsValidator = require('./validator/albums');
 const SongsValidator = require('./validator/songs');
-const InvariantError = require('./exceptions/InvariantError');
 const NotFoundError = require('./exceptions/NotFoundError');
 const ClientError = require('./exceptions/ClientError');
 
